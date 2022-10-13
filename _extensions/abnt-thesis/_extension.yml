@@ -1,0 +1,20 @@
+title: ABNT Thesis
+author: Charles Teague
+version: 0.1.0
+contributes:
+  project:
+    book:
+      reader-mode: true
+      search: false
+    project:
+      type: book
+    format:
+      pdf:
+        documentclass: abntex2
+        format-resources:
+          - abntex2-num.bst
+        cite-method: natbib
+        natbiboptions: numbers
+        biblio-style: abntex2-num.bst
+      html:
+        lang: pt
